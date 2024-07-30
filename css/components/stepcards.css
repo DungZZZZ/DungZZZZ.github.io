@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5; /* Light background color */
+    font-family: 'General Sans', sans-serif; /* Apply General Sans font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-cards {
+    width: 90%;
+    max-width: 600px; /* Max width for the cards container */
+}
+
+.step-card {
+    background-color: #0B3938; /* Dark green background */
+    color: #ffffff; /* White text color */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row; /* Align items in a row */
+    font-family: General-sans;
+}
+
+.step-number {
+    font-size: 48px; /* Large font size for the number */
+    color: #FAE6AA; /* Gold color for the number */
+    font-weight: bold;
+    margin-right: 20px; /* Space between number and content */
+}
+
+.step-content h2 {
+    margin: 0 0 10px 0; /* Space below the heading */
+    font-size: 24px;
+    color: #ffffff; /* White text color */
+}
+
+.step-content p {
+    margin: 0; /* Remove default margin */
+    font-size: 16px;
+    line-height: 1.5; /* Line height for better readability */
+    color: #b0bec5; /* Light color for the paragraph text */
+}
+
+

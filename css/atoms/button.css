@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5; /* Light background color */
+}
+
+.submit-enquiry {
+    background-color: #00796b; /* Teal color */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button size */
+    font-size: 14px; /* Font size */
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+.submit-enquiry:hover {
+    background-color: #005f56; /* Darker teal for hover effect */
+}
+
+
+.find-a-property {
+    background-color: white; /* White background */
+    color: #2c3e50; /* Dark text color */
+    border: 1px solid #707c87; /* Border color */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button size */
+    font-size: 14px; /* Font size */
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-weight: bold; /* Bold text */
+    margin-left: 15px; /* Spacing with the previous button*/
+}
+
+.find-a-property:hover {
+    background-color: #2c3e50; /* Dark background on hover */
+    color: white; /* White text on hover */
+}
+
+.apply-now {
+    background-color: #00796b; /* Teal color */
+    color: white;
+    border:none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor:pointer;
+    font-family: Arial, sans-serif;
+}
+
+.apply-now:hover {
+    background-color: #005f56; /* Darker teal for hover effect */
+}
+
+.learn-more-about-sda {
+    background-color: #00796b; /* Teal color */
+    color: white;
+    border:none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor:pointer;
+    font-family: Arial, sans-serif;
+}
+
+.learn-more-about-sda:hover {
+    background-color: #005f56; /* Darker teal for hover effect */
+}
+
+
+.call-us {
+    background-color: white; /* White background */
+    color: #2c3e50; /* Dark text color */
+    border: 1px solid #707c87; /* Border color */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button size */
+    font-size: 14px; /* Font size */
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-weight: bold; /* Bold text */
+}
+
+.call-us:hover {
+    background-color: #40c685; /* Dark background on hover */
+    color: white; /* White text on hover */
+}
+
+.contact-us {
+    background-color: #00BFC3; /* Teal color */
+    color: white;
+    border:none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor:pointer;
+    font-family: Arial, sans-serif;
+}
+
+.contact-us:hover {
+    background-color: #005f56; /* Darker teal for hover effect */
+}
+
+
+.load-more-post  {
+    background-color: #00796b; /* Teal color */
+    color: white;
+    border:none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor:pointer;
+    font-family: Arial, sans-serif;
+}
+
+.load-more-post:hover {
+    background-color: #005f56; /* Darker teal for hover effect */
+}
+
+
+.load-more-event  {
+    background-color: #00796b; /* Teal color */
+    color: white;
+    border:none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor:pointer;
+    font-family: Arial, sans-serif;
+}
+
+.load-more-event:hover {
+    background-color: #005f56; /* Darker teal for hover effect */
+}
+
+
+.subcribe  {
+    background-color: #00796b; /* Teal color */
+    color: white;
+    border:none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor:pointer;
+    font-family: Arial, sans-serif;
+}
+
+.subcribe:hover {
+    background-color: #005f56; /* Darker teal for hover effect */
+}
+

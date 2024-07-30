@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5; /* Light background color */
+    font-family: 'General Sans', sans-serif; /* Apply General Sans font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-caption-container {
+    max-width: 800px; /* Max width for the container */
+    text-align: center; /* Center align text */
+}
+
+.image-caption-container img {
+    width: 100%; /* Full width image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.image-caption-container figcaption {
+    font-size: 14px;
+    color: #757575; /* Gray color */
+    margin-top: 10px; /* Margin above the caption */
+    font-style: italic; /* Italic text */
+    text-align: left; /* Align caption text to the left */
+}

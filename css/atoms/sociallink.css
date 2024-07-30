@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5; /* Light background color */
+}
+
+
+.social-links {
+    display: flex;
+    gap: 20px; /* Space between social icons */
+}
+
+.social-link {
+    background-color: #0a0f2e; /* Dark background color */
+    color: #ffffff; /* White icon color */
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.social-link:hover {
+    background-color: #ffffff; /* White background on hover */
+    color: #0a0f2e; /* Dark icon color on hover */
+}

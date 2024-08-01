@@ -1,8 +1,9 @@
 .hero {
+    background: linear-gradient(to right, #f5f5f5 80%, #009496 20%); /* Grey on the left, Teal on the right */
     display: flex;
     align-items: center;
-    padding: 80px 40px;
-    background-color: #f5f5f5;
+    padding: 80px 0;
+    position: relative;
 }
 
 .hero__container {
@@ -10,6 +11,16 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+}
+
+.hero__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
 }
 
 .hero__text {
@@ -48,6 +59,8 @@
 .hero__image {
     position: relative;
     max-width: 45%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .hero__image img {

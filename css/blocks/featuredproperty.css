@@ -21,17 +21,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
+    padding: 30px 0;
     border-radius: 12px;
     background-color: #fef7f4;
 }
 
 .featured-property__image {
     flex: 1;
-    max-width: 50%;
+    max-width: 100%;
     margin-right: 20px;
     margin-left: 0; 
-    vertical-align: left;
 }
 
 .featured-property__image img {

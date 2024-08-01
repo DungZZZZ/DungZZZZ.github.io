@@ -1,71 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer</title>
-    <link rel="stylesheet" href="../css/global/footer.css">
-    <link rel="stylesheet" href="../css/atoms/button.css">
-    <link rel="stylesheet" href="../global/font-face.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/blocks/footer.css" />
+    <link rel="stylesheet" href="../css/atoms/button.css" />
+    <link rel="stylesheet" href="../css/global/font-face.css" />
+    <title>Footer Example</title>
 </head>
 <body>
+    <!-- Footer -->
     <footer class="footer">
-        <div class="footer-container">
+        <div class="footer__container">
             <div class="footer-top">
-                <div class="footer-column">
-                    <img src="../image/logo.png" alt="Logo" class="logo">
-                    <div class="contact-info">
-                        <a href="tel:+1300156555" class="contact-link">
-                            <img src="../image/phoneicon.png" alt="Phone Icon">
-                            <span>1300 156 555</span>
-                        </a>
-                        <a href="mailto:info@marameo.com" class="contact-link">
-                            <img src="../image/mailicon.png" alt="Mail Icon">
-                            <span>info@marameo.com</span>
-                        </a>
+                <div class="footer-logo">
+                    <a href="/#"><img src="../image/logo.png" alt="Logo Ipsum" class="logo-ipsum__icon white__img footer-logo__link"></a>
+                </div>
+                <div class="footer-logo">
+                    <a href="/#"><img src="../image/ndis.png" alt="NDIS logo" class="ndis__icon footer-logo__link"></a>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <div class="contact-info">
+                    <div class="email-mobile-contact">    
+                        <a href="tel:+1300156555" class="email-mobile-contact__link"><img src="../image/phoneicon.png" alt="Phone Icon" class="footer-icon"><span>1300 156 555</span></a>
+                        <a href="mailto:info@marameo.com" class="email-mobile-contact__link"><img src="../image/mailicon.png" alt="Mail Icon" class="footer-icon"><span>info@marameo.com</span></a>
                     </div>
                 </div>
-                <div class="footer-column">
-                    <div class="footer-links-container">
-                        <div class="footer-block">
-                            <h3 class="footer-title">QUICK LINKS</h3>
-                            <ul class="footer-links">
-                                <li><a href="#">Our Properties</a></li>
-                                <li><a href="#">Specialist Disability Accommodation</a></li>
-                                <li><a href="#">About Liberty</a></li>
-                                <li><a href="#">Resources</a></li>
-                                <li><a href="#">All Media & News</a></li>
+                <div class="contact-links__container">
+                    <div class="contact-links">
+                        <div class="quick-links">
+                            <h4 class="quick-links__title">QUICK LINKS</h4>
+                            <ul class="quick-links__list">        
+                                <li><a href="/#" class="quick-links__link">Our Properties</a></li>
+                                <li><a href="/#" class="quick-links__link">Specialist Disability Accommodation</a></li>
+                                <li><a href="/#" class="quick-links__link">About Livery</a></li>
+                                <li><a href="/#" class="quick-links__link">Resources</a></li>
+                                <li><a href="/#" class="quick-links__link">All Media & News</a></li>
                             </ul>
                         </div>
-                        <div class="footer-block">
-                            <h3 class="footer-title">FOR TENANTS</h3>
-                            <ul class="footer-links">
-                                <li><a href="#">FAQs</a></li>
-                                <li><a href="#">Resources</a></li>
-                                <li><a href="#">Support</a></li>
+                        <div class="quick-links">
+                            <h4 class="quick-links__title">FOR TENANTS</h4>
+                            <ul class="quick-links__list">        
+                                <li><a href="/#" class="quick-links__link">FAQs</a></li>
+                                <li><a href="/#" class="quick-links__link">Resources</a></li>
+                                <li><a href="/#" class="quick-links__link">Support</a></li>
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="footer-column">
-                    <img src="../image/ndis.png" alt="NDIS Logo" class="ndis-logo">
-                    <a href="#" class="contact-us">Contact Us</a>
-                    <div class="social-icons">
-                        <a href="#"><img src="../image/facebook.png" alt="Facebook Icon"></a>
-                        <a href="#"><img src="../image/linkedin.png" alt="LinkedIn Icon"></a>
-                        <a href="#"><img src="../image/instagram.png" alt="Instagram Icon"></a>
+                    <div class="contact-buttons">
+                        <a href="#" class="contact-us">Contact Us</a>
+                        <div class="social-media">
+                            <a href="#"><img src="../image/facebook.png" alt="Facebook Icon" class="contact-buttons--social"></a>
+                            <a href="#"><img src="../image/linkedin.png" alt="LinkedIn Icon" class="contact-buttons--social"></a>
+                            <a href="#"><img src="../image/instagram.png" alt="Instagram Icon" class="contact-buttons--social"></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <div class="footer-flags">
-                    <img src="../image/flag1.png" alt="Flag">
-                    <img src="../image/flag2.png" alt="Flag">
-                    <img src="../image/flag3.png" alt="Flag">
-                    <img src="../image/flag4.png" alt="Flag">
+                <hr class="footer-bottom__hr">
+                <div class="footer-bottom-content">
+                    <div class="footer-flags">
+                        <img src="../image/flag1.png" alt="Flag 1" class="footer-flags__image"> 
+                        <img src="../image/flag2.png" alt="Flag 2" class="footer-flags__image">
+                        <img src="../image/flag3.png" alt="Flag 3" class="footer-flags__image"> 
+                        <img src="../image/flag4.png" alt="Flag 4" class="footer-flags__image">
+                    </div>   
+                    <p class="footer-bottom__paragraph">             
+                        We acknowledge the Traditional Owners of the land where we work and live. We pay our respects to Elders past, present, and emerging.
+                    </p>
+                    <br>
+                    <p>© Copyright Lorem Ipsum. 
+                        <br>
+                        Website by <span>Marameo Design</span>
+                    </p>
                 </div>
-                <p class="footer-text">We acknowledge the Traditional Owners of the land where we work and live. We pay our respects to Elders past, present, and emerging.</p>
-                <p class="footer-text">&copy; Copyright Lorem Ipsum. Website by Marameo Design</p>
             </div>
         </div>
     </footer>

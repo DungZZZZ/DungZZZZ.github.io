@@ -1,18 +1,38 @@
 
 .submit-enquiry {
-    background-color: #00796b; /* Teal color */
+    background-color: #00796b;
     color: white;
     border: none;
-    border-radius: 20px; /* Rounded corners */
-    padding: 10px 20px; /* Padding for button size */
-    font-size: 14px; /* Font size */
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
+    text-decoration: none;
     font-family: Arial, sans-serif;
+    font-weight: 600;
 }
 
 .submit-enquiry:hover {
-    background-color: #005f56; /* Darker teal for hover effect */
+    background-color: #005f56;
 }
+
+.btn--secondary {
+    background-color: transparent;
+    color: #00796b;
+    border: 2px solid #00796b;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+}
+
+.btn--secondary:hover {
+    background-color: #f0f0f0;
+}
+
 
 
 .find-a-property {
@@ -91,6 +111,7 @@
     cursor:pointer;
     font-family: Arial, sans-serif;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .contact-us:hover {

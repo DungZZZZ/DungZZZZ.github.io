@@ -17,12 +17,21 @@
 }
 
 .hero__title {
-    font-family: 'Gotcha', cursive;
     font-size: 48px;
-    font-weight: 700;
-    color: #333333;
+    font-weight: 500;
+    color: #333333; /* Default color for "living" */
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
+
+.hero__title--cursive {
+    font-family: 'Gotcha', cursive; /* Assuming Gotcha is already included in your font-face */
+    font-weight: 400; /* Normal weight for cursive */
+    color: #007173; /* Teal color */
+    margin-right: 10px; /* Space between "Life-changing" and "living" */
+}
+
 
 .hero__description {
     font-size: 18px;

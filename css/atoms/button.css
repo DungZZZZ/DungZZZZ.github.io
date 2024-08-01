@@ -10,48 +10,33 @@
     text-decoration: none;
     font-family: Arial, sans-serif;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .submit-enquiry:hover {
     background-color: #005f56;
 }
 
-.btn--secondary {
-    background-color: transparent;
-    color: #00796b;
-    border: 2px solid #00796b;
-    border-radius: 25px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    font-weight: 600;
-}
-
-.btn--secondary:hover {
-    background-color: #f0f0f0;
-}
-
-
-
 .find-a-property {
     background-color: white; /* White background */
-    color: #2c3e50; /* Dark text color */
-    border: 1px solid #707c87; /* Border color */
-    border-radius: 20px; /* Rounded corners */
+    color: #00796b; /* Teal text color to match the primary button */
+    border: 2px solid #00796b; /* Teal border to match the primary button */
+    border-radius: 25px; /* Rounded corners to match the primary button */
     padding: 10px 20px; /* Padding for button size */
-    font-size: 14px; /* Font size */
+    font-size: 16px; /* Slightly larger font size */
     cursor: pointer;
-    font-family: Arial, sans-serif;
-    font-weight: bold; /* Bold text */
-    margin-left: 15px; /* Spacing with the previous button*/
+    font-family: 'General Sans', sans-serif; /* Match the font with the rest of the page */
+    font-weight: 600; /* Consistent bold text */
+    margin-left: 5px; /* Spacing with the previous button */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+    text-decoration: none;
 }
 
 .find-a-property:hover {
-    background-color: #2c3e50; /* Dark background on hover */
+    background-color: #00796b; /* Teal background on hover */
     color: white; /* White text on hover */
 }
+
 
 .apply-now {
     background-color: #00796b; /* Teal color */

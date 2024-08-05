@@ -1,13 +1,17 @@
+.container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .full-width-container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    margin: 0 auto;
     padding: 80px 60px;
     background: linear-gradient(to right, #09443E 80%, #FFE1D6 20%);
 }
-
 
 .column {
     padding: 0 20px;
@@ -46,7 +50,7 @@
     padding-top: 60px;
     aspect-ratio: 656 / 656; 
     width: 100%; 
-    max-width: 100%; 
+    max-width: 656px; /* Adjust image width */
     height: auto;
     object-fit: cover;
 }

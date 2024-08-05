@@ -74,6 +74,8 @@
     height: auto;
     object-fit: cover;
     border-radius: 0;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
 }
 
 .hero__overlay {
